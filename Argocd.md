@@ -8,7 +8,7 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 
 The Argo CD UI is served by argocd-server service. By default, argocd-server is of type ClusterIP.
 
-We have multiple options to access the UI. The easiest way to access the UI on macOS is forwarding the Argo CD server HTTPS port 443 to a different port.
+We have multiple options to access the UI. The easiest way to access the UI is forwarding the Argo CD server HTTPS port 443 to a different port.
 
 We need to create argocd namespace before execute below cmd
 ~~~
